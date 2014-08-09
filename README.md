@@ -1,4 +1,4 @@
-simplendas-jurisdictions
+Simple NDA's
 ========================
 
-NDA's for jurisdictions in the SImple NDAs app
+NDA's for jurisdictions in the Simple NDAs app
