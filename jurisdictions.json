@@ -1,0 +1,12 @@
+{ 'jurisdictions': [ 
+  { 'jurisdiction': 'uk',
+    'label': 'United Kingdom',
+    'description': 'NDA valid in the United Kingdom.',
+    'limitations': 'None noted' 
+  },
+  { 'jurisdiction': 'us',
+    'label': 'United States',
+    'description': 'NDA valid in the United States.',
+    'limitations': 'None noted'
+  }]
+}
