@@ -56,11 +56,11 @@ exports.ndas = {
   { "jurisdiction": "uk-en",
     "fields": [
       { "name": "company_name",
-        "label", "Company name",
+        "label": "Company name",
         "type": "text"
       },
       { "name": "company_registration_number",
-        "label", "Registration number",
+        "label": "Registration number",
         "type": "text"
       },
       { "name": "address",
@@ -80,7 +80,7 @@ exports.ndas = {
   { "jurisdiction": "us-ca",
     "fields": [
       { "name": "company_name",
-        "label", "Company name",
+        "label": "Company name",
         "type": "text"
       },
       { "name": "address",
@@ -96,7 +96,7 @@ exports.ndas = {
         "type": "text"
       },
       { "name": "company_name",
-        "label", "Company name",
+        "label": "Company name",
         "type": "text"
       },
       { "name": "address",
@@ -116,11 +116,11 @@ exports.ndas = {
   { "jurisdiction": "fr",
     "fields": [
       { "name": "company_name",
-        "label", "Company name",
+        "label": "Company name",
         "type": "text"
       },
       { "name": "company_registration_number",
-        "label", "Registration number",
+        "label": "Registration number",
         "type": "text"
       },
       { "name": "address",
