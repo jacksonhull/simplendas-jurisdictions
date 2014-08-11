@@ -84,6 +84,22 @@ exports.ndas = {
       }
     ]
   },
+  "us-ny" : {
+    "fields": [
+      { "name": "address",
+        "label": "Address",
+        "type": "textarea"
+      },
+      { "name": "signatory_name",
+        "label": "Signatory name",
+        "type": "text"
+      },
+      { "name": "signatory_title",
+        "label": "Signatory title",
+        "type": "text"
+      }
+    ]
+  },
   "fr": {
     "fields": [
       { "name": "company_registration_number",
