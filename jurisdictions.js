@@ -49,8 +49,8 @@ exports.regions = {
 exports.ndas = { 
   "uk-en": {
     "label": "English law",
-    "fields": [
-      { "name": "company_registration_number",
+    "company_fields": [
+      { "name": "registration_number",
         "label": "Registration number",
         "type": "text"
       },
@@ -65,6 +65,18 @@ exports.ndas = {
       { "name": "signatory_title",
         "label": "Signatory title",
         "type": "text"
+      }
+    ],
+    "recipient_fields": [
+      { "name": "company",
+        "label": "Company",
+        "type": "text",
+        "mandatory": false
+      },
+      { "name": "title",
+        "label": "Title",
+        "type": "text",
+        "mandatory": false
       }
     ]
   },
