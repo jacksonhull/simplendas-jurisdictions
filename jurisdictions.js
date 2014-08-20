@@ -80,8 +80,9 @@ exports.jurisdictions = {
       }
     ]
   },
-  "us-ca" : {
-    "fields": [
+  "us-ca": {
+    "label": "California",
+    "company_fields": [
       { "name": "address",
         "label": "Address",
         "type": "textarea"
@@ -94,10 +95,23 @@ exports.jurisdictions = {
         "label": "Signatory title",
         "type": "text"
       }
+    ],
+    "recipient_fields": [
+      { "name": "company",
+        "label": "Company",
+        "type": "text",
+        "mandatory": false
+      },
+      { "name": "title",
+        "label": "Title",
+        "type": "text",
+        "mandatory": false
+      }
     ]
   },
-  "us-ny" : {
-    "fields": [
+  "us-ca": {
+    "label": "California",
+    "company_fields": [
       { "name": "address",
         "label": "Address",
         "type": "textarea"
@@ -109,12 +123,25 @@ exports.jurisdictions = {
       { "name": "signatory_title",
         "label": "Signatory title",
         "type": "text"
+      }
+    ],
+    "recipient_fields": [
+      { "name": "company",
+        "label": "Company",
+        "type": "text",
+        "mandatory": false
+      },
+      { "name": "title",
+        "label": "Title",
+        "type": "text",
+        "mandatory": false
       }
     ]
   },
   "fr": {
-    "fields": [
-      { "name": "company_registration_number",
+    "label": "France",
+    "company_fields": [
+      { "name": "registration_number",
         "label": "Registration number",
         "type": "text"
       },
@@ -129,6 +156,18 @@ exports.jurisdictions = {
       { "name": "signatory_title",
         "label": "Signatory title",
         "type": "text"
+      }
+    ],
+    "recipient_fields": [
+      { "name": "company",
+        "label": "Company",
+        "type": "text",
+        "mandatory": false
+      },
+      { "name": "title",
+        "label": "Title",
+        "type": "text",
+        "mandatory": false
       }
     ]
   }
