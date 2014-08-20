@@ -109,7 +109,7 @@ exports.jurisdictions = {
       }
     ]
   },
-  "us-ca": {
+  "us-ny": {
     "label": "California",
     "company_fields": [
       { "name": "address",
