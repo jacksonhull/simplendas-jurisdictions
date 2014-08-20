@@ -1,4 +1,4 @@
-// Add regions and jurisdictions here
+// Add regions here
 exports.regions = {
   "uk": {
     "label": "United Kingdom",
@@ -45,8 +45,8 @@ exports.regions = {
   }
 };
 
-// Add NDAs here
-exports.ndas = { 
+// Add jurisdictions here
+exports.jurisdictions = { 
   "uk-en": {
     "label": "English law",
     "company_fields": [
