@@ -1,5 +1,5 @@
 # NONDISCLOUSRE AGREEMENT
-THIS NONDISCLOSURE AGREEMENT (this "Agreement") is made and entered into as of ~date~ between :company_name of :company_address.line, registered company no :company_registration_number (the "Company") and ~recipient_name (the "Recipient").
+THIS NONDISCLOSURE AGREEMENT (this "Agreement") is made and entered into as of ~date~ between :company_name of :company_address.line (the "Company") and ~recipient_name as ~recipient_title from ~recipient_company (the "Recipient").
 
 1. __"Confidential Information"__ means any...
 2. __Non-use and Non-disclosure.__ blah blah
