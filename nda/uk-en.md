@@ -109,6 +109,26 @@ E-mail:
 
 </td>
 </tr>
+<tr>
+<td>
+&nbsp;
+</td>
+<td>
+<hr />
+</td>
+</tr>
+<tr>
+<td class="recipient-field-label">
+
+Company contact:
+
+</td>
+<td class="bold">
+
+:recipient_company_contact
+
+</td>
+</tr>
 </table>
 
 ~agree I agree to be bound by the terms of this Agreement
