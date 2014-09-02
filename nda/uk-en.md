@@ -62,7 +62,7 @@ Signed, for the __Recipient__,
 
 <table>
 <tr>
-<td>
+<td class="recipient-field-label">
 
 By: 
 
@@ -74,7 +74,7 @@ By:
 </td>
 </tr>
 <tr>
-<td>
+<td class="recipient-field-label">
 
 Company:
 
@@ -86,7 +86,7 @@ Company:
 </td>
 </tr>
 <tr>
-<td>
+<td class="recipient-field-label">
 
 Title:
 
@@ -98,7 +98,7 @@ Title:
 </td>
 </tr>
 <tr>
-<td>
+<td class="recipient-field-label">
 
 E-mail:
 
