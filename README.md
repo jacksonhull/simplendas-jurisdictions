@@ -119,7 +119,7 @@ The template can render anything markdown can.  For example, [*uk-en.md*](https:
 
 There are some additions to the standard markdown syntax to note:
 
-### Rendered substitutions
+### Substitutions
 You can substitute fields during NDA rendering by prepending a __:__.  
 
 Company fields will render the values.
