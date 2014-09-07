@@ -6,7 +6,7 @@ exports.regions = {
       {
         "name": "uk-en",
         "label": "English law",
-        "description": "NDA valid in the England and Wales.",
+        "description": "NDA valid in England and Wales.",
         "limitations": "None noted",
         "language": "en-gb"
       }
@@ -48,7 +48,6 @@ exports.regions = {
 // Add jurisdictions here
 exports.jurisdictions = { 
   "uk-en": {
-    "label": "English law",
     "company_fields": [
       { "name": "registration_number",
         "label": "Registration number",
@@ -86,7 +85,6 @@ exports.jurisdictions = {
     ]
   },
   "us-ca": {
-    "label": "California",
     "company_fields": [
       { "name": "address",
         "label": "Address",
@@ -115,7 +113,6 @@ exports.jurisdictions = {
     ]
   },
   "us-ny": {
-    "label": "California",
     "company_fields": [
       { "name": "address",
         "label": "Address",
@@ -144,7 +141,6 @@ exports.jurisdictions = {
     ]
   },
   "fr": {
-    "label": "France",
     "company_fields": [
       { "name": "registration_number",
         "label": "Registration number",
