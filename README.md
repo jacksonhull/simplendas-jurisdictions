@@ -112,12 +112,12 @@ NDA templates are stored under [*/nda*](https://github.com/jacksonhull/simplenda
 ### Markdown
 The NDA templated are [markdown](https://daringfireball.net/projects/markdown/basics) files, with the extension *.md*.
 
-The template can render anything markdown can.  For example, [*uk-en.md*] starts with the markdown below, which renders a corresponding <h1> and <p> correspondingly.
+The template can render anything markdown can.  For example, [*uk-en.md*] starts with the markdown below, which renders a corresponding h1 and p element correspondingly.
 
     # NONDISCLOSURE AGREEMENT
     THIS NONDISCLOSURE AGREEMENT (this "Agreement") is made and entered ...
 
-There are some additions to the markdown to note:
+There are some additions to the standard markdown syntax to note:
 
 ### Rendered substitutions
 You can substitute fields during NDA rendering by prepending a __:__.  
@@ -146,7 +146,7 @@ You can also include any Recipient field input like ~recipient-field.  The macro
 
 Append .line to any Company field to return it as a single, comma-delimited line.
 
-## Usahe and License
+## Usage and License
 By contributing to this project, you agree to be bound by the [Terms and Conditions](https://www.simplendas.com/terms) of the SImple NDA's website.
 
 All templates located in the */nda* folder are licensed under the [Creative Commons Attribution ShareAlike 3.0 Unported License](https://creativecommons.org/licenses/by-sa/3.0/).
