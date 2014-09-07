@@ -107,3 +107,47 @@ For example, the *uk-en* Jurisdiction has an additional three Recipient fields f
     }
 
 ## NDA templates
+NDA templates are stored under [*/nda*](https://github.com/jacksonhull/simplendas-jurisdictions/tree/master/nda) and are named as the Jurisdiction.
+
+### Markdown
+The NDA templated are [markdown](https://daringfireball.net/projects/markdown/basics) files, with the extension *.md*.
+
+The template can render anything markdown can.  For example, [*uk-en.md*] starts with the markdown below, which renders a corresponding <h1> and <p> correspondingly.
+
+    # NONDISCLOSURE AGREEMENT
+    THIS NONDISCLOSURE AGREEMENT (this "Agreement") is made and entered ...
+
+There are some additions to the markdown to note:
+
+### Rendered substitutions
+You can substitute fields during NDA rendering by prepending a __:__.  
+
+Company fields will render the values.
+
+Recipient fields will render input elements.
+
+Examples:
+
+* :company_name will render the text of the Company's name
+* :recipient_name will render an input of type text to record the Recipient's name
+
+### Macros
+You can include macros, whoch execute during rendering and/or display.
+
+Built-in macros include:
+
+* ~date:format~ will return the date in the format provided (null will return format *fullDate*) 
+* ~submit:text~ will return a submit button with the text
+* ~agree adds a required checkbox element
+
+You can also include any Recipient field input like ~recipient-field.  The macro will return the label in CAPS by default, and replace it with the value entered in the input.
+
+### Helpers
+
+Append .line to any Company field to return it as a single, comma-delimited line.
+
+## Usahe and License
+By contributing to this project, you agree to be bound by the [Terms and Conditions](https://www.simplendas.com/terms) of the SImple NDA's website.
+
+All templates located in the */nda* folder are licensed under the [Creative Commons Attribution ShareAlike 3.0 Unported License](https://creativecommons.org/licenses/by-sa/3.0/).
+
