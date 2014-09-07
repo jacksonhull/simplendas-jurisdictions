@@ -112,7 +112,7 @@ NDA templates are stored under [*/nda*](https://github.com/jacksonhull/simplenda
 ### Markdown
 The NDA templated are [markdown](https://daringfireball.net/projects/markdown/basics) files, with the extension *.md*.
 
-The template can render anything markdown can.  For example, [*uk-en.md*] starts with the markdown below, which renders a corresponding h1 and p element correspondingly.
+The template can render anything markdown can.  For example, [*uk-en.md*](https://github.com/jacksonhull/simplendas-jurisdictions/blob/master/nda/uk-en.md) starts with the markdown below, which renders a corresponding *h1* and *p* element correspondingly.
 
     # NONDISCLOSURE AGREEMENT
     THIS NONDISCLOSURE AGREEMENT (this "Agreement") is made and entered ...
