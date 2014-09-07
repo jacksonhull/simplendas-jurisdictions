@@ -3,7 +3,7 @@ Simple NDA's
 
 Simple NDA's is about nothing more than simple NDA's.
 
-To create or modify an NDA for use in your jurisdiction, follow these guidelines and submit a pull request.
+To create or modify an NDA for use in your Jurisdiction, follow these guidelines and submit a pull request.
 
 ## Regions and Jurisdictions
 A Region is a country, as defined by the [two-digit ISO country codes](http://en.wikipedia.org/wiki/ISO_3166-1).
@@ -29,20 +29,22 @@ Get started by adding a Region in the *regions* object in [*jurisdications.js*](
           }
         ]
       }
-    };
+    }
 
 ## Fields in the NDA
 
 Additional fields will likely be required when creating a new NDA.  Refer to the NDA template you intend to add to determine what fields should be added to the defaults.  Basically if there is information that is specific to the Company or recipient, it will need to be variable-ized into a field.
 
 ### Company fields
-*Company* fields are inputs for the creation of an NDA.  
+Company fields are inputs for the creation of an NDA.  
 
-The default, required fields are:
-    Company name (text, mandatory) -- the name of the Company creating the NDA
-    Company email (text, mandatory) -- the email address of the Company 
+The Company fields appear as text in the NDA template.
 
-Configure additional Company fields for the NDA in the *jurisdiction* object in [*jurisdications.js*](https://github.com/jacksonhull/simplendas-jurisdictions/blob/master/jurisdictions.js), by adding a name, label and type for each.  Note that additional Company fields are treated as mandatory.
+The default, required Company fields are:
+* Company name (text, mandatory) -- the name of the Company creating the NDA
+* Company email (text, mandatory) -- the email address of the Company 
+
+Configure additional Company fields for the NDA in the *company_fields* list in [*jurisdications.js*](https://github.com/jacksonhull/simplendas-jurisdictions/blob/master/jurisdictions.js) by adding a *name*, *label* and *type* for each.  Note that additional Company fields are validated as mandatory.
 
 For example, the *uk-en* Jurisdiction has an additional four Company fields for use in the [NDA template](https://github.com/jacksonhull/simplendas-jurisdictions/blob/master/nda/uk-en.md).
 
@@ -68,3 +70,40 @@ For example, the *uk-en* Jurisdiction has an additional four Company fields for 
         ]
       }
     }
+
+### Recipient fields
+Recipient fields are inputs for signatories of an NDA.  
+
+The Recipient fields appear as input fields in the NDA template.  The *label* is used for the input *type* of each field.  Recipient fields are validated based on the value in *mandatory*.
+
+The default, required Recipient fields are:
+* Recipient name (text, mandatory) -- the name of the Recipient signing the NDA
+* Recipient email (text, mandatory) -- the email address of the Recipient 
+
+Configure additional Recipient fields for the NDA in the *recipient_fields* list in [*jurisdications.js*](https://github.com/jacksonhull/simplendas-jurisdictions/blob/master/jurisdictions.js) by adding a name, label and type for each.
+
+For example, the *uk-en* Jurisdiction has an additional three Recipient fields for use in the [NDA template](https://github.com/jacksonhull/simplendas-jurisdictions/blob/master/nda/uk-en.md).
+
+    exports.jurisdictions = { 
+      "uk-en": {
+        "recipient_fields": [
+          { "name": "company",
+            "label": "Company",
+            "type": "text",
+            "mandatory": false
+          },
+          { "name": "title",
+            "label": "Title",
+            "type": "text",
+            "mandatory": false
+          },
+          { "name": "company_contact",
+            "label": "Company contact",
+            "type": "text",
+            "mandatory": true
+          }
+        ]
+      }
+    }
+
+## NDA templates
