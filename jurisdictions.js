@@ -84,12 +84,12 @@ exports.jurisdictions = {
       { "name": "company",
         "label": "Company",
         "type": "text",
-        "mandatory": false
+        "mandatory": true
       },
-      { "name": "title",
-        "label": "Title",
-        "type": "text",
-        "mandatory": false
+      { "name": "address",
+        "label": "Address",
+        "type": "textarea",
+        "mandatory": true
       }
     ]
   }
