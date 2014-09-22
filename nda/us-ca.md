@@ -134,4 +134,4 @@ E-mail:
 
 ~agree I agree to be bound by the terms of this Agreement
 
-~submit:Sign this Agreement~
+~submit:Sign Agreement~
