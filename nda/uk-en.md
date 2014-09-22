@@ -133,4 +133,4 @@ Company contact:
 
 ~agree I agree to be bound by the terms of this Agreement
 
-~submit:Sign Agreement~
+~submit:Sign~
