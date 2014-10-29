@@ -59,7 +59,7 @@ exports.jurisdictions = {
         "mandatory": false
       },
       { "name": "company_contact",
-        "label": "Company contact",
+        "label": "Meeting with?",
         "type": "text",
         "mandatory": true
       }
