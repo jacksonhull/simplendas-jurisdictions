@@ -72,15 +72,6 @@ Pour <b>:company_name</b>:
 </td>
 </tr>
 <tr>
-<td colspan="2" class="recipient-field-label" style="text-align: left;">
-<br /> 
-&nbsp;
-Pour <b>~recipient_company</b>:
-<br /> 
-&nbsp;
-</td>
-</tr>
-<tr>
 <td class="recipient-field-label">
 
 Nom:
@@ -89,6 +80,18 @@ Nom:
 <td class="bold">
 
 :recipient_name
+
+</td>
+</tr>
+<tr>
+<td class="recipient-field-label">
+
+Soci&eacute;t&eacute;:
+
+</td>
+<td class="bold">
+
+:recipient_company
 
 </td>
 </tr>
