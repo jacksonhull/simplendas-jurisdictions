@@ -23,6 +23,18 @@ exports.regions = {
         "language": "en-us"
       }
     ]
+  },
+  "fr": {
+    "label": "France",
+    "jurisdictions": [
+      {
+        "name": "fr",
+        "label": "France",
+        "description": "NDA valid in France.",
+        "limitations": "None noted",
+        "language": "fr-fr"
+      }
+    ]
   }
 };
 
@@ -67,6 +79,10 @@ exports.jurisdictions = {
   },
   "us-ca": {
     "company_fields": [
+      { "name": "registration_number",
+        "label": "Registration number",
+        "type": "text"
+      },
       { "name": "address",
         "label": "Address",
         "type": "textarea"
@@ -89,6 +105,34 @@ exports.jurisdictions = {
       { "name": "address",
         "label": "Address",
         "type": "textarea",
+        "mandatory": true
+      }
+    ]
+  },
+  "fr": {
+    "company_fields": [
+      { "name": "registration_number",
+        "label": "Registration number",
+        "type": "text"
+      },
+      { "name": "address",
+        "label": "Address",
+        "type": "textarea"
+      },
+      { "name": "signatory_name",
+        "label": "Nom",
+        "type": "text"
+      }
+    ],
+    "recipient_fields": [
+      { "name": "company_contact",
+        "label": "Nom du contact",
+        "type": "text",
+        "mandatory": true
+      },
+      { "name": "company",
+        "label": "Société",
+        "type": "text",
         "mandatory": true
       }
     ]
