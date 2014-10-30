@@ -72,6 +72,15 @@ Pour <b>:company_name</b>:
 </td>
 </tr>
 <tr>
+<td colspan="2" class="recipient-field-label" style="text-align: left;">
+<br /> 
+&nbsp;
+Pour le &laquo; __R&eacute;cipiendaire__ &raquo;:
+<br /> 
+&nbsp;
+</td>
+</tr>
+<tr>
 <td class="recipient-field-label">
 
 Nom:
