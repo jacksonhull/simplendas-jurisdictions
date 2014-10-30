@@ -75,7 +75,7 @@ Pour <b>:company_name</b>:
 <td colspan="2" class="recipient-field-label" style="text-align: left;">
 <br /> 
 &nbsp;
-Pour le &laquo; __R&eacute;cipiendaire__ &raquo;:
+Pour le &laquo; <b>R&eacute;cipiendaire</b> &raquo;:
 <br /> 
 &nbsp;
 </td>
