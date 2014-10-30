@@ -7,8 +7,6 @@ __:company_name__ soci&eacute;t&eacute; par actions simplifi&eacute;e, au capita
 ## Et :
 
 __Nom__ : ~recipient_name
-
-__Soci&eacute;t&eacute;__ : ~recipient_company
   (le &laquo; __R&eacute;cipiendaire__ &raquo;)
 
 ### IL EST PREALABLEMENT EXPOSE :
@@ -91,18 +89,6 @@ Nom:
 <td class="bold">
 
 :recipient_name
-
-</td>
-</tr>
-<tr>
-<td class="recipient-field-label">
-
-Soci&eacute;t&eacute;:
-
-</td>
-<td class="bold">
-
-:recipient_company
 
 </td>
 </tr>

@@ -133,7 +133,7 @@ exports.jurisdictions = {
       { "name": "company",
         "label": "Société",
         "type": "text",
-        "mandatory": true
+        "mandatory": false
       }
     ]
   }
