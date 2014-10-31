@@ -35,6 +35,15 @@ Additional fields will likely be required when creating a new NDA.  Refer to the
 Provide a Region label, and a name, label, description, limitations of and language of the NDA for the Jurisdiction in the Jurisdictions object.  
 Note that the name of the Jurisdiction from the Region must match the key for the Jurisdiction (e.g. "uk-en").
 
+    exports.jurisdictions = { 
+      "uk-en": {
+        "label": "English law",
+        "description": "NDA valid in England and Wales.",
+        "limitations": "None noted",
+        "language": "en-gb"
+      }
+    }
+
 ### Company fields
 Company fields are inputs for the creation of an NDA.  
 
@@ -50,10 +59,6 @@ For example, the *uk-en* Jurisdiction has an additional four Company fields for 
 
     exports.jurisdictions = { 
       "uk-en": {
-        "label": "English law",
-        "description": "NDA valid in England and Wales.",
-        "limitations": "None noted",
-        "language": "en-gb",
         "company_fields": [
           { "name": "registration_number",
             "label": "Registration number",
@@ -103,6 +108,52 @@ For example, the *uk-en* Jurisdiction has an additional three Recipient fields f
           },
           { "name": "company_contact",
             "label": "Company contact",
+            "type": "text",
+            "mandatory": true
+          }
+        ]
+      }
+    }
+
+### Put it all together
+
+    exports.jurisdictions = { 
+      "uk-en": {
+        "label": "English Law",
+        "description": "NDA valid in England and Wales.",
+        "limitations": "None noted",
+        "language": "en-gb",
+        "company_fields": [
+          { "name": "registration_number",
+            "label": "Registration number",
+            "type": "text"
+          },
+          { "name": "address",
+            "label": "Address",
+            "type": "textarea"
+          },
+          { "name": "signatory_name",
+            "label": "Signatory name",
+            "type": "text"
+          },
+          { "name": "signatory_title",
+            "label": "Signatory title",
+            "type": "text"
+          }
+        ],
+        "recipient_fields": [
+          { "name": "company",
+            "label": "Company",
+            "type": "text",
+            "mandatory": false
+          },
+          { "name": "title",
+            "label": "Title",
+            "type": "text",
+            "mandatory": false
+          },
+          { "name": "company_contact",
+            "label": "Meeting with?",
             "type": "text",
             "mandatory": true
           }
