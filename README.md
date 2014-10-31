@@ -110,7 +110,7 @@ For example, the *uk-en* Jurisdiction has an additional three Recipient fields f
 NDA templates are stored under [*/nda*](https://github.com/jacksonhull/simplendas-jurisdictions/tree/master/nda) and are named as the Jurisdiction.
 
 ### Markdown
-The NDA templated are [markdown](https://daringfireball.net/projects/markdown/basics) files, with the extension *.md*.
+The NDA templates are [markdown](https://daringfireball.net/projects/markdown/basics) files, with the extension *.md*.
 
 The template can render anything markdown can.  For example, [*uk-en.md*](https://github.com/jacksonhull/simplendas-jurisdictions/blob/master/nda/uk-en.md) starts with the markdown below, which renders a corresponding *h1* and *p* element correspondingly.
 
@@ -132,7 +132,7 @@ Examples:
 * :recipient_name will render an input of type text to record the Recipient's name
 
 ### Macros
-You can include macros, whoch execute during rendering and/or display.
+You can include macros, which execute during rendering and/or display.
 
 Built-in macros include:
 
@@ -146,8 +146,23 @@ You can also include any Recipient field input like ~recipient-field.  The macro
 
 Append .line to any Company field to return it as a single, comma-delimited line.
 
+### API
+You can access signatures for your company using the endpoint:
+
+    https://www.simplendas.com/api/signs/<jurisdiction>/<company-slug>/<token>
+
+For example, if your NDA is found at:
+
+    https://www.simplendas.com/nda/uk-en/joes-plumbing
+
+And, your token is A1B2C3D4E5, then the endpoint is:
+
+    https://www.simplendas.com/api/signs/uk-en/joes-plumbing/A1B2C3D4E5
+
+Note that the token can be found in the activation confirmation email.
+
 ## Usage and License
-By contributing to this project, you agree to be bound by the [Terms and Conditions](https://www.simplendas.com/terms) of the SImple NDA's website.
+By contributing to this project, you agree to be bound by the [Terms and Conditions](https://www.simplendas.com/terms) of the Simple NDA's website.
 
 All templates located in the */nda* folder are licensed under the [Creative Commons Attribution ShareAlike 3.0 Unported License](https://creativecommons.org/licenses/by-sa/3.0/).
 

@@ -4,11 +4,7 @@ exports.regions = {
     "label": "United Kingdom",
     "jurisdictions": [
       {
-        "name": "uk-en",
-        "label": "English law",
-        "description": "NDA valid in England and Wales.",
-        "limitations": "None noted",
-        "language": "en-gb"
+        "name": "uk-en"
       }
     ]
   },
@@ -16,11 +12,7 @@ exports.regions = {
     "label": "United States",
     "jurisdictions": [
       {
-        "name": "us-ca",
-        "label": "California",
-        "description": "NDA valid in California.",
-        "limitations": "None noted",
-        "language": "en-us"
+        "name": "us-ca"
       }
     ]
   },
@@ -28,11 +20,7 @@ exports.regions = {
     "label": "France",
     "jurisdictions": [
       {
-        "name": "fr",
-        "label": "France",
-        "description": "NDA valid in France.",
-        "limitations": "None noted",
-        "language": "fr-fr"
+        "name": "fr"
       }
     ]
   }
@@ -41,6 +29,10 @@ exports.regions = {
 // Add jurisdictions here
 exports.jurisdictions = { 
   "uk-en": {
+    "label": "English Law",
+    "description": "NDA valid in England and Wales.",
+    "limitations": "None noted",
+    "language": "en-gb",
     "company_fields": [
       { "name": "registration_number",
         "label": "Registration number",
@@ -78,11 +70,11 @@ exports.jurisdictions = {
     ]
   },
   "us-ca": {
+    "label": "California",
+    "description": "NDA valid in California.",
+    "limitations": "None noted",
+    "language": "en-us",
     "company_fields": [
-      { "name": "registration_number",
-        "label": "Registration number",
-        "type": "text"
-      },
       { "name": "address",
         "label": "Address",
         "type": "textarea"
@@ -110,6 +102,10 @@ exports.jurisdictions = {
     ]
   },
   "fr": {
+    "label": "France",
+    "description": "NDA valid in France.",
+    "limitations": "None noted",
+    "language": "fr-fr",
     "company_fields": [
       { "name": "registration_number",
         "label": "Registration number",
