@@ -146,7 +146,7 @@ You can also include any Recipient field input like ~recipient-field.  The macro
 
 Append .line to any Company field to return it as a single, comma-delimited line.
 
-### API
+## API
 You can access signatures for your company using the endpoint:
 
     https://www.simplendas.com/api/signs/<jurisdiction>/<company-slug>/<token>
@@ -159,7 +159,11 @@ And, your token is A1B2C3D4E5, then the endpoint is:
 
     https://www.simplendas.com/api/signs/uk-en/joes-plumbing/A1B2C3D4E5
 
-Note that the token can be found in the activation confirmation email.
+Note that the endpoint can also be found in the activation confirmation email.
+
+### Importing your signatures into Google Spreadsheets
+
+Follow the instructions [in this post](https://medium.com/@paulgambill/how-to-import-json-data-into-google-spreadsheets-in-less-than-5-minutes-a3fede1a014a), using the API endpoint.
 
 ## Usage and License
 By contributing to this project, you agree to be bound by the [Terms and Conditions](https://www.simplendas.com/terms) of the Simple NDA's website.
