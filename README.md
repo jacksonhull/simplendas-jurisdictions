@@ -53,7 +53,7 @@ For example, the *uk-en* Jurisdiction has an additional four Company fields for 
         "label": "English law",
         "description": "NDA valid in England and Wales.",
         "limitations": "None noted",
-        "language": "en-gb"
+        "language": "en-gb",
         "company_fields": [
           { "name": "registration_number",
             "label": "Registration number",
