@@ -132,7 +132,7 @@ Nom du contact:
 </td>
 <td class="bold">
 
-:recipientcompany_contact
+:recipient_co_contact
 
 </td>
 </tr>

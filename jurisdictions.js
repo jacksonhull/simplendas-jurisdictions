@@ -62,7 +62,7 @@ exports.jurisdictions = {
         "type": "text",
         "mandatory": false
       },
-      { "name": "companycontact",
+      { "name": "co_contact",
         "label": "Meeting with?",
         "type": "text",
         "mandatory": true
@@ -121,7 +121,7 @@ exports.jurisdictions = {
       }
     ],
     "recipient_fields": [
-      { "name": "companycontact",
+      { "name": "co_contact",
         "label": "Nom du contact",
         "type": "text",
         "mandatory": true
