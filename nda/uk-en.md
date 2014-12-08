@@ -125,7 +125,7 @@ Meeting with?:
 </td>
 <td class="bold">
 
-:recipient_companycontact
+:recipientcompany_contact
 
 </td>
 </tr>
