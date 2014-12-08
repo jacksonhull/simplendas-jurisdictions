@@ -55,17 +55,20 @@ exports.jurisdictions = {
       { "name": "company",
         "label": "Company",
         "type": "text",
-        "mandatory": false
+        "mandatory": false,
+        "force_upper": true
       },
       { "name": "title",
         "label": "Title",
         "type": "text",
-        "mandatory": false
+        "mandatory": false,
+        "force_upper": true
       },
       { "name": "co_contact",
         "label": "Meeting with?",
         "type": "text",
-        "mandatory": true
+        "mandatory": true,
+        "force_upper": true
       }
     ]
   },
@@ -92,12 +95,14 @@ exports.jurisdictions = {
       { "name": "company",
         "label": "Company",
         "type": "text",
-        "mandatory": true
+        "mandatory": true,
+        "force_upper": true
       },
       { "name": "address",
         "label": "Address",
         "type": "textarea",
-        "mandatory": true
+        "mandatory": true,
+        "force_upper": true
       }
     ]
   },
@@ -124,12 +129,14 @@ exports.jurisdictions = {
       { "name": "co_contact",
         "label": "Nom du contact",
         "type": "text",
-        "mandatory": true
+        "mandatory": true,
+        "force_upper": true
       },
       { "name": "company",
         "label": "Société",
         "type": "text",
-        "mandatory": false
+        "mandatory": false,
+        "force_upper": true
       }
     ]
   }
