@@ -1,7 +1,7 @@
-Simple NDA's
+Simple NDAs
 ========================
 
-Simple NDA's is about nothing more than simple NDA's.
+Simple NDAs is about nothing more than simple NDAs.
 
 To create or modify an NDA for use in your Jurisdiction, follow these guidelines and submit a pull request.
 
@@ -221,7 +221,7 @@ Note that the endpoint can also be found in the activation confirmation email.
 Follow the instructions [in this post](https://medium.com/@paulgambill/how-to-import-json-data-into-google-spreadsheets-in-less-than-5-minutes-a3fede1a014a), using the API endpoint.
 
 ## Usage and License
-By contributing to this project, you agree to be bound by the [Terms and Conditions](https://www.simplendas.com/terms) of the Simple NDA's website.
+By contributing to this project, you agree to be bound by the [Terms and Conditions](https://www.simplendas.com/terms) of the Simple NDAs website.
 
 All templates located in the */nda* folder are licensed under the [Creative Commons Attribution ShareAlike 3.0 Unported License](https://creativecommons.org/licenses/by-sa/3.0/).
 
